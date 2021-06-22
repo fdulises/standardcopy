@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'abeezeeregular';
+    src: url('fonts/abeezee-regular-webfont.eot');
+    src: url('fonts/abeezee-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/abeezee-regular-webfont.woff2') format('woff2'),
+         url('fonts/abeezee-regular-webfont.woff') format('woff'),
+         url('fonts/abeezee-regular-webfont.ttf') format('truetype'),
+         url('fonts/abeezee-regular-webfont.svg#abeezeeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Estilos Generales ---------- */
+body{
+	font-size: 20px;
+	background-color: #f5f5f1;
+	font-family: abeezeeregular;
+}
+.imgres{
+	max-width: 100% !important;
+	height: auto !important;
+}
+/* Estilos para la cabecera ---------- */
+#milogo {
+		display: inline-block;
+    font-family: abeezeeregular;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#supcabecera {
+    background-color: #0070ac;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#navesup{
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+#navesup ul{
+	margin: 0;
+	padding: 0
+}
+#navesup li{
+	display: inline-block;
+}
+#navesup li a {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+		color: #ffffff;
+}
+#navesup li a:hover{
+	background-color: #f04a4c;
+}
+/* Estilos pie de pagina ---------- */
+#infpie {
+    background-color: #f04a4c;
+    color: #fff;
+    padding: 30px 0;
+}
+#infcopy {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#contactando {
+    background-color: #fff;
+}
+#contactando .container{
+	max-width: 500px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.textops1 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.textops2 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+	background-color: #fff;
+}
+.textops3 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+	background-color: #fff;
+}
+.textops3 .container{
+	max-width: 700px;
+}
+.contimgs1 {
+    background-color: #fff;
+	padding-top: 40px;
+}
+.contimgs1 .imgres{
+	margin-bottom: 40px;
+}
+#heroimg{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*---------- Estilo para la pagina de rentas ---------*/
+#inrent {
+    background-color: #fff;
+}
+.prodsel{
+	margin: 50px 0;
+}
+.prodsel img {
+    max-width: 100% !important;
+	max-height: inherit !important;
+}
+.prodsel h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 19px 0;
+    text-align: center;
+}
+.caracteristic {
+    padding: 0;
+}
+.caracteristic li {
+    font-size: 16px;
+    list-style: outside none none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
